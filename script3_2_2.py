@@ -40,10 +40,22 @@ def read_write_image(meme_template, pages, path, file):
         # Download the entire page
         html = urllib.request.urlopen(req)
         all_html = html.read().decode('utf-8')
-        working_images = re.search('i.imgflip.com\/.*\.((jpg)|(png))', all_html)
-        img_link = str(working_images).split("'")
-        real_final_link = img_link[1]
-        print("The link that needs to be downloaded is:\n" + real_final_link)
+        array_of_url = []
+        working_image = 1
+        while working_image is not None:
+
+            working_image = re.search('i.imgflip.com\/.*\.((jpg)|(png))', all_html)
+            img_link = str(working_image).split("'")
+            rest_html = str(all_html).split(img_link[1])
+            all_html = rest_html[1]
+
+        # OK: so this is the exact link that needs to be downloaded now I need
+        # to find this link for all of the images on this page
+        # then go until that link is None
+            real_final_link = img_link[1]
+            array_of_url.append(real_final_link)
+            print("The link that needs to be downloaded is:\n" + real_final_link)
+        print(array_of_url)
 
         # Turn the page into a bs object
         soup = BeautifulSoup(html, 'html.parser')
