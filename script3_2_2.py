@@ -5,28 +5,53 @@ from urllib import request
 
 from bs4 import BeautifulSoup
 
+# import urllib.request
+# req = urllib.request.Request(
+#     url,
+#     data=None,
+#     headers={
+#         'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.47 Safari/537.36'
+#     }
+# )
+#
+# f = urllib.request.urlopen(req)
+# print(f.read().decode('utf-8'))
+
 
 def read_write_image(meme_template, pages, path, file):
     # This should work with other urls, i only tested with one
     p = 1
     i = 0
+
+
+
     while p <= int(pages):
-        url = 'https://imgflip.com/meme/' + meme_template + '?page=' + str(p)
+
+        req = urllib.request.Request(
+            'https://imgflip.com/meme/' + meme_template + '?page=' + str(p),
+            data=None,
+            headers={
+                'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) '
+                              'Chrome/79.0.3945.130 Safari/537.36 '
+            }
+        )
+
         # Download the entire page
-        html = urllib.request.urlopen(url)
+        html = urllib.request.urlopen(req)
+        print(html.read().decode('utf-8'))
 
         # Turn the page into a bs object
         soup = BeautifulSoup(html, 'html.parser')
 
         # Get _just_ the photo_gallery div
-        test = soup.find(id='base-left')
+        id_path = soup.find(id='base-left')
         # the problem is that class already has an assigned function in python
         # path2 = soup.find(class_='base-unit clearfix')
         # path3 = soup.find(class="base-img-wrap-wrap")
         # path4 = soup.find(class="base-img-wrap")
 
         # Loop through all item divs in the photo_gallery div
-        for image in test.findAll(src_='item'):
+        for image in id_path.findAllNext(src_='item'):
 
             # Within each item div, get the photo div
             photo = image.find(class_='base-img')
