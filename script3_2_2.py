@@ -2,6 +2,7 @@
 import urllib
 from urllib import request
 # import urllib.request
+import re
 
 from bs4 import BeautifulSoup
 
@@ -38,7 +39,11 @@ def read_write_image(meme_template, pages, path, file):
 
         # Download the entire page
         html = urllib.request.urlopen(req)
-        print(html.read().decode('utf-8'))
+        all_html = html.read().decode('utf-8')
+        working_images = re.search('i.imgflip.com\/.*\.((jpg)|(png))', all_html)
+        img_link = str(working_images).split("'")
+        real_final_link = img_link[1]
+        print("The link that needs to be downloaded is:\n" + real_final_link)
 
         # Turn the page into a bs object
         soup = BeautifulSoup(html, 'html.parser')
