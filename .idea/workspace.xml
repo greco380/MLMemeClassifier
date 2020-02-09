@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c99293a-757d-4082-9f10-ef2d507842d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PersonalTestsRescale.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/memeMLclassifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/memeMLclassifier.ipynb" afterDir="false" />
     </list>
@@ -52,8 +53,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.script3_2_3">
-    <configuration name="script" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.PersonalTestsRescale">
+    <configuration name="PersonalTestsRescale" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MemeDownloadScript" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -66,7 +67,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/scriptv1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PersonalTestsRescale.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.PersonalTestsRescale" />
         <item itemvalue="Python.script3_2_3" />
         <item itemvalue="Python.script3_2_2" />
         <item itemvalue="Python.scriptv3_2" />
         <item itemvalue="Python.scriptv2" />
-        <item itemvalue="Python.script" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +189,7 @@
       <workItem from="1580586584127" duration="15205000" />
       <workItem from="1580628418255" duration="16774000" />
       <workItem from="1580755544069" duration="4506000" />
-      <workItem from="1581189003720" duration="35698000" />
+      <workItem from="1581189003720" duration="38388000" />
     </task>
     <servers />
   </component>
@@ -280,5 +281,6 @@
     <SUITE FILE_PATH="coverage/MemeDownloadScript$script3_2_3.coverage" NAME="script3_2_3 Coverage Results" MODIFIED="1581240396302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MemeDownloadScript$scriptv2.coverage" NAME="scriptv2 Coverage Results" MODIFIED="1580587374168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MemeDownloadScript$script3_2_2.coverage" NAME="script3_2_2 Coverage Results" MODIFIED="1581211703256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MemeDownloadScript$PersonalTestsRescale.coverage" NAME="PersonalTestsRescale Coverage Results" MODIFIED="1581249712206" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
