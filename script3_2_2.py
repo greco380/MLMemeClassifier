@@ -41,21 +41,47 @@ def read_write_image(meme_template, pages, path, file):
         html = urllib.request.urlopen(req)
         all_html = html.read().decode('utf-8')
         array_of_url = []
+        final_image_array = []
         working_image = 1
-        while working_image is not None:
+        # new_way = re.finditer(r'i.imgflip.com\/.*\.((jpg)|(png))', all_html)
+        # new_way = [x.group() for x in re.finditer(r'i.imgflip.com\/[^jpg]*\.((jpg)|(png))', all_html)]
+        new_different_regex = [x.group() for x in re.finditer(r'i\.imgflip\.com\/[0-9a-zA-Z]{3,6}\.(jpg|png)', all_html)]
+        print(new_different_regex)
+        print(len(new_different_regex))
+        for i in new_different_regex:
+            if i not in final_image_array:
+                final_image_array.append(i)
+        # remove duplicates
+        print(final_image_array)
+        print(len(final_image_array))
 
-            working_image = re.search('i.imgflip.com\/.*\.((jpg)|(png))', all_html)
-            img_link = str(working_image).split("'")
-            rest_html = str(all_html).split(img_link[1])
-            all_html = rest_html[1]
 
-        # OK: so this is the exact link that needs to be downloaded now I need
-        # to find this link for all of the images on this page
-        # then go until that link is None
-            real_final_link = img_link[1]
-            array_of_url.append(real_final_link)
-            print("The link that needs to be downloaded is:\n" + real_final_link)
-        print(array_of_url)
+
+
+        # while working_image is not None:
+        #
+        #     working_image = re.search('i.imgflip.com\/.*\.((jpg)|(png))', all_html)
+        #     img_link = str(working_image).split("'")
+        #     if img_link[1] == ' alt=':
+        #         rest_html = str(all_html)
+        #         all_html = rest_html[1]
+        #         final_section = img_link[0]
+        #         final_section = final_section.split('"')
+        #         real_final_link = final_section[1]
+        #         array_of_url.append(real_final_link)
+        #         working_image = rest_html
+        #         print("The link that needs to be downloaded is:\n" + real_final_link)
+        #     else:
+        #         rest_html = str(all_html).split(img_link[1])
+        #         all_html = rest_html[1]
+        #
+        # # OK: so this is the exact link that needs to be downloaded now I need
+        # # to find this link for all of the images on this page
+        # # then go until that link is None
+        #         real_final_link = img_link[1]
+        #         array_of_url.append(real_final_link)
+        #         print("The link that needs to be downloaded is:\n" + real_final_link)
+        # print(array_of_url)
 
         # Turn the page into a bs object
         soup = BeautifulSoup(html, 'html.parser')
