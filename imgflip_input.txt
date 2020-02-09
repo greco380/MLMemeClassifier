@@ -1,55 +1,55 @@
 Spongebob Head out
 Spongebob-Ight-Imma-Head-Out
 96
-    path
+/users/u27/greco/memes/Sopngebob
 sbiho
 
 Two buttons
 Two-Buttons
 250
-    path
+/users/u27/greco/memes/twoButtons
 tb
 
 Change my mind
 Change-My-Mind
 250
-    path
+/users/u27/greco/memes/changeMyMind
 cmm
 
 Surprised Pikachu
 Surprised-Pikachu
 250
-    path
+/users/u27/greco/memes/surprisedPikachu
 sp
 
 think about it
 Roll-Safe-Think-About-It
 250
-    path
+/users/u27/greco/memes/thinkAboutIt
 rstai
 
 Bad luck brian
 Bad-Luck-Brian
 250
-    path
+/users/u27/greco/memes/badLuckBrian
 blb
 
 Hide the pain harold
 Hide-the-Pain-Harold
 250
-    path
+/users/u27/greco/memes/hideThePainHarold
 htph
 
 Distracted boyfriend
 Distracted-Boyfriend
 250
-    path
+/users/u27/greco/memes/distractedBoyfriend
 db
 
 Left exit
 Left-Exit-12-Off-Ramp
 250
-    path
+/users/u27/greco/memes/leftExit
 leor
 
 
