@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c99293a-757d-4082-9f10-ef2d507842d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/memeMLclassifier.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/script3_2_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/script3_2_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memeMLclassifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/memeMLclassifier.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +188,7 @@
       <workItem from="1580586584127" duration="15205000" />
       <workItem from="1580628418255" duration="16774000" />
       <workItem from="1580755544069" duration="4506000" />
-      <workItem from="1581189003720" duration="34315000" />
+      <workItem from="1581189003720" duration="35651000" />
     </task>
     <servers />
   </component>
