@@ -1,7 +1,7 @@
 Spongebob Head out
 Spongebob-Ight-Imma-Head-Out
 96
-/home/greco/Documents/Memev2/SpongebobImmaHeadOut
+    path
 sbiho
 
 Two buttons
