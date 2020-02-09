@@ -71,11 +71,36 @@ def read_write_image(meme_template, pages, path, file):
 
 
 def main():
-    meme_template = input("Enter the meme template part of the url from imgflip.com: ")
-    pages = input("Scroll to the bottom and input how many pages there are: ")
-    path = input("Enter the full file path to where you wan the images to be saved: ")
-    file = input("enter the name of what you want the base file to be called: ")
-    read_write_image(meme_template, pages, path, file)
+    # meme_template = input("Enter the meme template part of the url from imgflip.com: ")
+    # pages = input("Scroll to the bottom and input how many pages there are: ")
+    # path = input("Enter the full file path to where you wan the images to be saved: ")
+    # file = input("enter the name of what you want the base file to be called: ")
+    read_write_image(meme_template='Spongebob-Ight-Imma-Head-Out', pages='96', path='/users/u27/greco/memes/Sopngebob',
+                     file='sbiho')
+
+    read_write_image(meme_template='Two-Buttons', pages='250', path='/users/u27/greco/memes/twoButtons',
+                     file='tb')
+
+    read_write_image(meme_template='Change-My-Mind', pages='250', path='/users/u27/greco/memes/changeMyMind',
+                     file='cmm')
+
+    read_write_image(meme_template='Surprised-Pikachu', pages='250', path='/users/u27/greco/memes/surprisedPikachu',
+                     file='sp')
+
+    read_write_image(meme_template='Roll-Safe-Think-About-It', pages='250', path='/users/u27/greco/memes/thinkAboutIt',
+                     file='rstai')
+
+    read_write_image(meme_template='Bad-Luck-Brian', pages='250', path='/users/u27/greco/memes/badLuckBrian',
+                     file='blb')
+
+    read_write_image(meme_template='Hide-the-Pain-Harold', pages='250', path='/users/u27/greco/memes/hideThePainHarold',
+                     file='htph')
+
+    read_write_image(meme_template='Distracted-Boyfriend', pages='250', path='/users/u27/greco/memes/distractedBoyfriend',
+                     file='db')
+
+    read_write_image(meme_template='Left-Exit-12-Off-Ramp', pages='250', path='/users/u27/greco/memes/leftExit',
+                     file='leor')
 
 
 if __name__ == '__main__':
