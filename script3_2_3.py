@@ -71,11 +71,11 @@ def read_write_image(meme_template, pages, path, file):
 
 
 def main():
-    # meme_template = input("Enter the meme template part of the url from knowyourmeme.com: ")
-    # pages = input("Scroll to the bottom and input how many pages there are: ")
-    # path = input("Enter the full file path to where you wan the images to be saved: ")
-    # file = input("enter the name of what you want the base file to be called: ")
-    read_write_image(meme_template='Spongebob-Ight-Imma-Head-Out', pages='96', path='/home/greco/Documents/Memev2/SpongebobImmaHeadOut', file='sbiho')
+    meme_template = input("Enter the meme template part of the url from imgflip.com: ")
+    pages = input("Scroll to the bottom and input how many pages there are: ")
+    path = input("Enter the full file path to where you wan the images to be saved: ")
+    file = input("enter the name of what you want the base file to be called: ")
+    read_write_image(meme_template, pages, path, file)
 
 
 if __name__ == '__main__':

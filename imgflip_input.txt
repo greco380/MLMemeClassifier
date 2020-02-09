@@ -1,0 +1,65 @@
+Spongebob Head out
+Spongebob-Ight-Imma-Head-Out
+96
+/home/greco/Documents/Memev2/SpongebobImmaHeadOut
+sbiho
+
+Two buttons
+Two-Buttons
+250
+    path
+tb
+
+Change my mind
+Change-My-Mind
+250
+    path
+cmm
+
+Surprised Pikachu
+Surprised-Pikachu
+250
+    path
+sp
+
+think about it
+Roll-Safe-Think-About-It
+250
+    path
+rstai
+
+Bad luck brian
+Bad-Luck-Brian
+250
+    path
+blb
+
+Hide the pain harold
+Hide-the-Pain-Harold
+250
+    path
+htph
+
+Distracted boyfriend
+Distracted-Boyfriend
+250
+    path
+db
+
+Left exit
+Left-Exit-12-Off-Ramp
+250
+    path
+leor
+
+
+
+
+
+
+
+
+
+
+
+
