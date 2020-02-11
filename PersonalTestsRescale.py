@@ -78,7 +78,5 @@ def main():
             eighty=eighty_of_data)
 
 
-
-
 if __name__ == '__main__':
     main()
