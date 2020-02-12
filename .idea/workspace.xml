@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c99293a-757d-4082-9f10-ef2d507842d6" name="Default Changelist" comment="" />
+    <list default="true" id="1c99293a-757d-4082-9f10-ef2d507842d6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/memeMLclassifier.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/memeMLclassifier.ipynb" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,6 +194,8 @@
       <workItem from="1580755544069" duration="4506000" />
       <workItem from="1581189003720" duration="44747000" />
       <workItem from="1581432647570" duration="10252000" />
+      <workItem from="1581458872702" duration="3060000" />
+      <workItem from="1581481647816" duration="771000" />
     </task>
     <servers />
   </component>
