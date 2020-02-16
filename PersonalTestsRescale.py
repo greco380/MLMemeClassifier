@@ -39,43 +39,47 @@ def rescale(find_path, test_save_path, validate_sava_path, eighty):
 
 def main():
     # Local file test
-    eighty_of_data = eighty_percent("/home/greco/Documents/MemesScriptTest/Memes3.0/")
-    rescale(find_path="/home/greco/Documents/MemesScriptTest/Memes3.0/",
-            test_save_path="/home/greco/Documents/MemesScriptTest/Memes3.0T/",
-            validate_sava_path="/home/greco/Documents/MemesScriptTest/Memes3.0V/",
-            eighty=eighty_of_data)
-    #########################################################################################
-    # Distracted BF
-    eighty_of_data = eighty_percent("/users/u27/greco/memes/distractedBoyfriend/")
-    rescale(find_path="/users/u27/greco/memes/distractedBoyfriend/",
-            test_save_path="/users/u27/greco/memes/AllData/Train/TrainDisBf/",
-            validate_sava_path="/users/u27/greco/memes/AllData/Validate/ValDisBf/",
-            eighty=eighty_of_data)
-    # Spongebob
-    eighty_of_data = eighty_percent("/users/u27/greco/memes/Spongebob/")
-    rescale(find_path="/users/u27/greco/memes/Spongebob/",
-            test_save_path="/users/u27/greco/memes/AllData/Train/TrainSponge/",
-            validate_sava_path="/users/u27/greco/memes/AllData/Validate/ValSponge/",
-            eighty=eighty_of_data)
-    # Two Buttons
-    eighty_of_data = eighty_percent("/users/u27/greco/memes/twoButtons/")
-    rescale(find_path="/users/u27/greco/memes/twoButtons/",
-            test_save_path="/users/u27/greco/memes/AllData/Train/TrainTwoBt/",
-            validate_sava_path="/users/u27/greco/memes/AllData/Validate/ValTwoBT/",
-            eighty=eighty_of_data)
 
-    # Bad Luck Brian
-    eighty_of_data = eighty_percent("/users/u27/greco/memes/badLuckBrian/")
-    rescale(find_path="/users/u27/greco/memes/badLuckBrian/",
-            test_save_path="/users/u27/greco/memes/AllData/Train/TrainBadLBri/",
-            validate_sava_path="/users/u27/greco/memes/AllData/Validate/ValBadLBri/",
-            eighty=eighty_of_data)
-    # Hide the Pain Harold
-    eighty_of_data = eighty_percent("/users/u27/greco/memes/hideThePainHarold/")
-    rescale(find_path="/users/u27/greco/memes/hideThePainHarold/",
-            test_save_path="/users/u27/greco/memes/AllData/Train/TrainHideTPain/",
-            validate_sava_path="/users/u27/greco/memes/AllData/Validate/ValHideTPain/",
-            eighty=eighty_of_data)
+    rescale(find_path="/home/greco/Documents/Memev2/test/", test_save_path="/home/greco/Documents/Memev2/test",
+            validate_sava_path="/home/greco/Documents/Memev2/test/", eighty=3)
+
+    # eighty_of_data = eighty_percent("/home/greco/Documents/MemesScriptTest/Memes3.0/")
+    # rescale(find_path="/home/greco/Documents/MemesScriptTest/Memes3.0/",
+    #         test_save_path="/home/greco/Documents/MemesScriptTest/Memes3.0T/",
+    #         validate_sava_path="/home/greco/Documents/MemesScriptTest/Memes3.0V/",
+    #         eighty=eighty_of_data)
+    # #########################################################################################
+    # # Distracted BF
+    # eighty_of_data = eighty_percent("/users/u27/greco/memes/distractedBoyfriend/")
+    # rescale(find_path="/users/u27/greco/memes/distractedBoyfriend/",
+    #         test_save_path="/users/u27/greco/memes/AllData/Train/TrainDisBf/",
+    #         validate_sava_path="/users/u27/greco/memes/AllData/Validate/ValDisBf/",
+    #         eighty=eighty_of_data)
+    # # Spongebob
+    # eighty_of_data = eighty_percent("/users/u27/greco/memes/Spongebob/")
+    # rescale(find_path="/users/u27/greco/memes/Spongebob/",
+    #         test_save_path="/users/u27/greco/memes/AllData/Train/TrainSponge/",
+    #         validate_sava_path="/users/u27/greco/memes/AllData/Validate/ValSponge/",
+    #         eighty=eighty_of_data)
+    # # Two Buttons
+    # eighty_of_data = eighty_percent("/users/u27/greco/memes/twoButtons/")
+    # rescale(find_path="/users/u27/greco/memes/twoButtons/",
+    #         test_save_path="/users/u27/greco/memes/AllData/Train/TrainTwoBt/",
+    #         validate_sava_path="/users/u27/greco/memes/AllData/Validate/ValTwoBT/",
+    #         eighty=eighty_of_data)
+    #
+    # # Bad Luck Brian
+    # eighty_of_data = eighty_percent("/users/u27/greco/memes/badLuckBrian/")
+    # rescale(find_path="/users/u27/greco/memes/badLuckBrian/",
+    #         test_save_path="/users/u27/greco/memes/AllData/Train/TrainBadLBri/",
+    #         validate_sava_path="/users/u27/greco/memes/AllData/Validate/ValBadLBri/",
+    #         eighty=eighty_of_data)
+    # # Hide the Pain Harold
+    # eighty_of_data = eighty_percent("/users/u27/greco/memes/hideThePainHarold/")
+    # rescale(find_path="/users/u27/greco/memes/hideThePainHarold/",
+    #         test_save_path="/users/u27/greco/memes/AllData/Train/TrainHideTPain/",
+    #         validate_sava_path="/users/u27/greco/memes/AllData/Validate/ValHideTPain/",
+    #         eighty=eighty_of_data)
 
 
 if __name__ == '__main__':
