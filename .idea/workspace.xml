@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c99293a-757d-4082-9f10-ef2d507842d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MachineLearning.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MemeDownloadScript.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MemeDownloadScript.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -225,6 +221,9 @@
       <workItem from="1581737126971" duration="1040000" />
       <workItem from="1581889068549" duration="1431000" />
       <workItem from="1582156796559" duration="1761000" />
+      <workItem from="1582165700178" duration="728000" />
+      <workItem from="1582592506738" duration="857000" />
+      <workItem from="1582684143801" duration="478000" />
     </task>
     <servers />
   </component>
