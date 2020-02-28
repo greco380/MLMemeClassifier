@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c99293a-757d-4082-9f10-ef2d507842d6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Predicting/my_meme_model.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Predicting/predict_meme.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Predicting/test20200214-223043-535063.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,10 +36,13 @@
     <property name="ToolWindowJupyter.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Memev2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Predicting" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Predicting" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$USER_HOME$/Documents/Memev2" />
       <recent name="$PROJECT_DIR$/OldWork" />
@@ -56,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.PersonalTestsRescale">
+  <component name="RunManager" selected="Python.predict_meme">
     <configuration name="PersonalTestsRescale" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MemeDownloadScript" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -93,6 +99,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="predict_meme" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="MemeDownloadScript" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Predicting" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Predicting/predict_meme.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,28 +170,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="scriptv2" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MemeDownloadScript" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OldWork/scriptv2.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="scriptv3_2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="MemeDownloadScript" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -191,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.predict_meme" />
         <item itemvalue="Python.PersonalTestsRescale" />
         <item itemvalue="Python.script3_2_3" />
         <item itemvalue="Python.script3_2_2" />
         <item itemvalue="Python.scriptv3_2" />
-        <item itemvalue="Python.scriptv2" />
       </list>
     </recent_temporary>
   </component>
@@ -223,7 +226,9 @@
       <workItem from="1582156796559" duration="1761000" />
       <workItem from="1582165700178" duration="728000" />
       <workItem from="1582592506738" duration="857000" />
-      <workItem from="1582684143801" duration="478000" />
+      <workItem from="1582684143801" duration="1802000" />
+      <workItem from="1582752654617" duration="2264000" />
+      <workItem from="1582909762635" duration="1511000" />
     </task>
     <servers />
   </component>
@@ -345,6 +350,6 @@
     <SUITE FILE_PATH="coverage/MemeDownloadScript$script3_2_3.coverage" NAME="script3_2_3 Coverage Results" MODIFIED="1581240396302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MemeDownloadScript$scriptv2.coverage" NAME="scriptv2 Coverage Results" MODIFIED="1580587374168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MemeDownloadScript$script3_2_2.coverage" NAME="script3_2_2 Coverage Results" MODIFIED="1581211703256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MemeDownloadScript$PersonalTestsRescale.coverage" NAME="PersonalTestsRescale Coverage Results" MODIFIED="1581737443017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MemeDownloadScript$PersonalTestsRescale.coverage" NAME="PersonalTestsRescale Coverage Results" MODIFIED="1582910851403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
